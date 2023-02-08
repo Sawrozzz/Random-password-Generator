@@ -1,0 +1,54 @@
+.container{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 25px;
+    background-color: black;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+.inp{
+    width: 350px;
+    height: 40px;
+    background-color: black;
+    outline: none;
+    border: 1px solid red;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    box-shadow: 20px 20px 40px 20px red;
+}
+.generate{
+    width: 250px;
+    height: 40px;
+    background-color: red;
+    color: black;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+
+.generate:active{
+    font-size: 23px;
+}
+h1{
+    color: white;
+    text-shadow:  0  0  5px  red;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-color: aqua;
+}
+body{
+    background-color: black;
+}
+.generate:hover{
+    color: chartreuse;
+}
